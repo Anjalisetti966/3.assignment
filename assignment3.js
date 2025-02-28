@@ -34,7 +34,7 @@ else{
     console.log(num2);
     
 }
-console.log();
+
 
 //7)
 let n=prompt("enter n ")
@@ -79,9 +79,9 @@ let name="anjali"
 name="null"*/
 
 //11)
-let ages=20;
+let ages=15;
 license=true;
-if (ages>18,license) {
+if (ages>18 && license) {
     console.log("you are eligible for driving");    
 }
 else{
@@ -127,9 +127,10 @@ else{
     
 // }
 
+
 //15)
 let temperature=35;
-let isHot;
+let isHot=true;
 if (temperature>30,hot) {
     console.log("temperature is too hot");
 }else{
